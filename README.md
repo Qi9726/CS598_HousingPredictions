@@ -41,8 +41,8 @@ We utilized GradientBoostingRegressor as our tree model, with the parameters set
 * Computer system: The following outcome is derived from a computer system with the specifications: Macbook Air, 1.6 GHz, 8GB memory.
 
 * ![RMSE for linear model with Ridge:](Ridge.png)
-
-![RMSE for tree model with Gradient Boosting:](GradientBoosting.png)
+  
+* ![RMSE for tree model with Gradient Boosting:](GradientBoosting.png)
 
 
 
