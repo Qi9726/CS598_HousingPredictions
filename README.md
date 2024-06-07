@@ -40,4 +40,9 @@ We utilized GradientBoostingRegressor as our tree model, with the parameters set
 * Execution time: The time taken for each training/test split for both the Ridge model and Tree model is displayed below. Additionally, the total execution time for each model is provided.
 * Computer system: The following outcome is derived from a computer system with the specifications: Macbook Air, 1.6 GHz, 8GB memory.
 
+* ![RMSE for linear model with Ridge:](relative-path-to-screenshot-file)
+
+![RMSE for tree model with Gradient Boosting:](relative-path-to-screenshot-file)
+
+
 
