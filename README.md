@@ -29,10 +29,10 @@ data for all the variables and transform all the training data.
  
 # Model:
 
-* Linear regression model with Ridge using variables selected by Lasso
+* Linear regression model with Ridge using variables selected by Lasso: 
 We employed a linear model with Ridge. Specifically, we first utilized LassoCV to generate the Lasso alpha (based on lambda.min) and fit the Lasso model to select variables, then we fitted a Ridge model with the alpha selected from RidgeCV on the variables selected by Lasso. We trained the Ridge model with the training data preprocessed for the linear model.
 
-* Tree model with GradientBoostingRegressor
+* Tree model with GradientBoostingRegressor: 
 We utilized GradientBoostingRegressor as our tree model, with the parameters set as follows: learning_rate: 0.02, n_estimators: 1000, subsample: 0.5,max_depth: 6. We trained the Gradient Boosting model with the training data preprocessed for the tree model.
 
 # Performance Metrics:
